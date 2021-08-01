@@ -1,46 +1,34 @@
 fileFormatVersion: 2
-guid: 777670c4010b94f928e8f4959e6fd6eb
+guid: 130fac079fc9b4727807fa5d23cd510b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1515622694917723629
-    second: Blocks_0
+      213: -4319114124213364403
+    second: PuzzleBox_0
   - first:
-      213: 1503016370545623098
-    second: Blocks_1
+      213: 6075035910301856154
+    second: PuzzleBox_1
   - first:
-      213: 1489830567317918739
-    second: Blocks_2
+      213: -6473672752065819739
+    second: PuzzleBox_2
   - first:
-      213: 38433539612607256
-    second: Blocks_3
+      213: 1041614012448963952
+    second: PuzzleBox_3
   - first:
-      213: 5937300090042828850
-    second: Blocks_4
+      213: 4820653046851391191
+    second: PuzzleBox_4
   - first:
-      213: -2230640015494873224
-    second: Blocks_5
+      213: -8308745223984166659
+    second: PuzzleBox_5
   - first:
-      213: -8506558392696655332
-    second: Top
+      213: -2781139540195245157
+    second: PuzzleBox_6
   - first:
-      213: 6608634889621467271
-    second: Right
+      213: -3918695869708364527
+    second: PuzzleBox_7
   - first:
-      213: -2445883823613288998
-    second: Bottom
-  - first:
-      213: 6373870660395215810
-    second: Blocks_1
-  - first:
-      213: -7097341274207599037
-    second: Blocks_2
-  - first:
-      213: -6460359424736439037
-    second: Blocks_3
-  - first:
-      213: 7266596302296298328
-    second: Blocks_4
+      213: -5607332631023197056
+    second: PuzzleBox_8
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -166,13 +154,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Blocks_0
+      name: PuzzleBox_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 30
-        width: 30
-        height: 30
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -180,20 +168,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de557189fc2980510800000000000000
-      internalID: 1515622694917723629
+      spriteID: d49d3e1769c6f04c0800000000000000
+      internalID: -4319114124213364403
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blocks_1
+      name: PuzzleBox_1
       rect:
         serializedVersion: 2
-        x: 30
-        y: 30
-        width: 30
-        height: 30
+        x: 32
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -201,20 +189,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a3008f9fc69cbd410800000000000000
-      internalID: 1503016370545623098
+      spriteID: a91b84739fcde4450800000000000000
+      internalID: 6075035910301856154
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blocks_2
+      name: PuzzleBox_2
       rect:
         serializedVersion: 2
-        x: 60
-        y: 30
-        width: 30
-        height: 30
+        x: 64
+        y: 64
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -222,20 +210,83 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 314d08ce101fca410800000000000000
-      internalID: 1489830567317918739
+      spriteID: 5abcdf45ee4e826a0800000000000000
+      internalID: -6473672752065819739
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blocks_3
+      name: PuzzleBox_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07df615fc6e847e00800000000000000
+      internalID: 1041614012448963952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleBox_4
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7de4bfab76666e240800000000000000
+      internalID: 4820653046851391191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleBox_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df8433b8d3861bc80800000000000000
+      internalID: -8308745223984166659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PuzzleBox_6
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 30
-        height: 30
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -243,20 +294,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8130214c91b888000800000000000000
-      internalID: 38433539612607256
+      spriteID: b938ed3c2586769d0800000000000000
+      internalID: -2781139540195245157
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blocks_4
+      name: PuzzleBox_7
       rect:
         serializedVersion: 2
-        x: 30
+        x: 32
         y: 0
-        width: 30
-        height: 30
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -264,20 +315,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 238c5e789f6856250800000000000000
-      internalID: 5937300090042828850
+      spriteID: 1151e3f5edefd99c0800000000000000
+      internalID: -3918695869708364527
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Blocks_5
+      name: PuzzleBox_8
       rect:
         serializedVersion: 2
-        x: 60
+        x: 64
         y: 0
-        width: 30
-        height: 30
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -285,8 +336,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 87ff7ae69bc2b01e0800000000000000
-      internalID: -2230640015494873224
+      spriteID: 084e7665ea0ce22b0800000000000000
+      internalID: -5607332631023197056
       vertices: []
       indices: 
       edges: []
