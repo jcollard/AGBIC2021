@@ -11,6 +11,7 @@ public class PuzzleGrid : MonoBehaviour
     public Transform Background;
     public int Columns = 4;
     public int Rows = 6;
+    public float alpha = 0.8f;
     private Block[,] Blocks;
     private Vector2 Offset;
 
@@ -80,6 +81,9 @@ public class PuzzleGrid : MonoBehaviour
         background.name = $"({r},{c})";
         SpriteRenderer renderer = background.AddComponent<SpriteRenderer>();
         renderer.sprite = GetBackgroundTile(r, c);
+        Color newColor = renderer.material.color;
+        newColor.a = alpha;
+        renderer.material.color = newColor;
     }
 
     // Start is called before the first frame update

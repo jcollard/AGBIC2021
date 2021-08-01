@@ -9,6 +9,8 @@ public class Menu : MonoBehaviour
     public int Rows = 3;
     public Transform Background;
     private Vector2 Offset;
+    public float alpha = 0.8f;
+    public bool doAlpha = true;
 
     private Sprite GetBackgroundTile(int r, int c)
     {
@@ -60,6 +62,12 @@ public class Menu : MonoBehaviour
         background.name = $"({r},{c})";
         SpriteRenderer renderer = background.AddComponent<SpriteRenderer>();
         renderer.sprite = GetBackgroundTile(r, c);
+        if (doAlpha)
+        {
+            Color newColor = renderer.material.color;
+            newColor.a = alpha;
+            renderer.material.color = newColor;
+        }
     }
     // Start is called before the first frame update
     void Start()
